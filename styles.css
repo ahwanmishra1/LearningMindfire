@@ -1,0 +1,185 @@
+body{
+	background-color: #f0f0f0;
+	font: 16px/24px "Helvetica Neue", Arial, sans-serif ;
+  padding: 0;
+  color: #4b4e59;
+  margin: 0;
+
+}
+h1 {
+  font-size: 32px;
+	font-weight: 600;
+  padding-bottom: 20px;
+}
+h3{
+	font-size: 20px;
+}
+p{
+  font-size: 16px;
+}
+
+
+.header-homepage{
+	background: url(https://cdn.wallpapersafari.com/85/60/DUfRXg.jpg) 0 0 no-repeat;
+  background-size: cover;
+	height: 300px;
+
+  margin-bottom: 24px;
+}
+.opacity{
+  background-color:  #000000;
+  background-color:  rgba(0, 0, 0, 0.6);
+  height: 300px;
+	background-size: 100%;
+}
+.header-contents{
+	color: white;
+	padding: 50px 100px;
+}
+.header-text{
+  float: left;
+}
+.sideimage{
+  float: right;
+  height:200px;
+}
+
+
+
+
+.container{
+	padding: 20px;
+  text-align: center;
+}
+.row{
+	overflow: hidden;
+  /* padding: 50px 100px; */
+}
+.column-third{
+  text-align: center;
+	margin: 12px 24px;
+	width: 340px;
+	display:inline-block;
+}
+
+.logo{
+  margin: 10px 0 0 0;
+  float: right;
+  font-weight: 600;
+  font-size: 125%;
+}
+.right-gap{
+  text-align: justify;
+  padding-right:  24px;
+
+}
+
+
+
+.white-box{
+  background-color: white;
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+}
+.white-box-button{
+  background-color: #3f87af;
+  display: inline-block;
+  padding: 5px 10px;
+
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+
+
+
+
+
+.advertisement{
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+.advertisement-button{
+  background-color: #ff9539;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10px;
+}
+.advertisement p{
+  font-weight: 600;
+  display: inline-block;
+}
+.advertisement-button a{
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+
+
+
+
+.testimonials-heading{
+  padding: 50px  100px 0 100px ;
+}
+.testimonials hr{
+  height: 2px;
+  border-width: 0;
+  background-color: #4b4e59;
+}
+.testimonial-image{
+  height: 84px;
+  width: 84px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+
+  /* margin-bottom: 10px; */
+}
+.testimonials p{
+  text-align: justify;
+}
+.testimonial{
+
+  padding: 10px 20px 10px 20px ;
+}
+.triangle-up {
+  width: 0;
+  	height: 0;
+  	border-left: 15px solid transparent;
+  	border-right: 15px solid transparent;
+  	border-bottom: 15px solid white;
+    display: inline-block;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px)
+{
+  .header-homepage{
+    height: 600px;
+    background-color: black;
+    text-align: center;
+  }
+  .opacity{
+    height: 600px;
+  }
+  .header-text{
+    float: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .sideimage{
+    height:150px;
+    float: none;
+  }
+
+}
