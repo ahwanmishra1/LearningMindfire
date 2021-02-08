@@ -57,7 +57,7 @@ p{
 }
 .column-third{
   text-align: center;
-	margin: 12px 24px;
+	margin: 12px 24px 12px 24px;
 	width: 340px;
 	display:inline-block;
 }
@@ -87,7 +87,7 @@ p{
 .white-box-button{
   background-color: #3f87af;
   display: inline-block;
-  padding: 5px 10px;
+  padding: 5px 10px 5px 10px;
 
   color: white;
   text-decoration: none;
@@ -181,5 +181,15 @@ p{
     height:150px;
     float: none;
   }
+  .column-third{
+    text-align: center;
+  	width: 260px;
 
+  }
+  .white-box{
+    width: 220px;
+  }
+  .header-contents{
+    padding: 50px;
+  }
 }
